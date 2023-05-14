@@ -6,7 +6,7 @@ Repository for the EMCT final project. AI Assisted Musical Composition.
 
 The notebooks are named after their specific use cases:
 
-1. midi_encode_to_token.ipynb notebook handles encoding the MIDI dataset to tokens, as well as augmenting them to improve learning performance of the model.
+1. midi_encode_to_REMI_token.ipynb notebook handles encoding the MIDI dataset to tokens, as well as augmenting them to improve learning performance of the model.
 
 2. tf_transformer_model_training.ipyng notebook handles token preprocessing and the training of the model, using Transformers and Tensorflow.
 
@@ -20,7 +20,7 @@ The notebooks are named after their specific use cases:
 *You must download the tokenizer params.json, the weights and the models from this repository, and store them in your google drive in order to use them*
 
 
-### 1. midi_encode_to_token.ipynb ###
+### 1. midi_encode_to_REMI_token.ipynb ###
 
 1.1. Choose or collect an appropriate MIDI dataset
 
