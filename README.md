@@ -14,7 +14,7 @@ The notebooks are named after their specific use cases:
 
 
 
-How to use (you can skip 1.x and 2.x steps if you only want to generate MIDI compositions): 
+## How to use (you can skip 1.x and 2.x steps if you only want to generate MIDI compositions): 
 
 
 ### 1. midi_encode_to_token.ipynb ###
