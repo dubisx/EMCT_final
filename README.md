@@ -17,7 +17,9 @@ The notebooks are named after their specific use cases:
 ## How to use (you can skip 1.x and 2.x steps if you only want to generate MIDI compositions): 
 
 ### IMPORTANT:
-*You must download the params.json, the weights and the models folders from this repository, and store them in your google drive in order to use them*
+*You must download the params.json, the weights and the models folders from this repository, and store them in your google drive in order to use them.*
+
+*You must also run all of the codecells that are present in the notebooks, from top to bottom.*
 
 
 ### 1. midi_encode_to_REMI_token.ipynb ###
