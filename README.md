@@ -1,8 +1,7 @@
 
 # EMCT_final
 Repository for the EMCT final project. AI Assisted Musical Composition.
-
-Simas Danauskas 2023
+*Simas Danauskas 2023
 
 The notebooks are named after their specific use cases:
 
