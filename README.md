@@ -2,6 +2,8 @@
 # EMCT_final
 Repository for the EMCT final project. AI Assisted Musical Composition.
 
+Simas Danauskas 2023
+
 The notebooks are named after their specific use cases:
 
 1. midi_encode_to_token.ipynb notebook handles encoding the MIDI dataset to tokens, as well as augmenting them to improve learning performance of the model.
