@@ -41,7 +41,7 @@ The notebooks are named after their specific use cases:
 
 ### 3. Generator.ipynb ###
 
-3.1. Initialize the tokenizer, choose and initialize the model, and load in the model weights from their directories.
+3.1. Initialize the tokenizer, choose and initialize the model, and load in the model weights from their directories. (when changing an already initialized model, you must reload the notebook)
 
 3.2. Select a MIDI file to use as a prompt. You can view the plotted piano roll and listen to the loaded file inside the notebook.
 
