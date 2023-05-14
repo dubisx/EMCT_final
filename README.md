@@ -16,6 +16,8 @@ The notebooks are named after their specific use cases:
 
 ## How to use (you can skip 1.x and 2.x steps if you only want to generate MIDI compositions): 
 
+# IMPORTANT: # *You must download the tokenizer params.json, the weights and the models from this repository, and store them in your google drive in order to use them*
+
 
 ### 1. midi_encode_to_token.ipynb ###
 
@@ -40,8 +42,6 @@ The notebooks are named after their specific use cases:
 
 
 ### 3. Generator.ipynb ###
-
-*(Download the weights and the models from this repository, and store them in your google drive to use them)*
 
 3.1. Initialize the tokenizer, choose and initialize the model, and load in the model weights from their google drive directories. (when changing an already initialized model, you must reload the notebook)
 
