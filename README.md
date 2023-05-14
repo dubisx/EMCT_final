@@ -24,7 +24,15 @@ The notebooks are named after their specific use cases:
 
 1.1. Choose or collect an appropriate MIDI dataset
 
-1.2. Run the second notebook to encode the data to specified path.
+1.2. Initialize the tokenizer.
+
+1.3. Encode the data to specified path.
+
+1.4. Learn the vocabulary with BPE.
+
+1.5. Apply BPE to tokenized dataset.
+
+1.6. Save the parameters and vocabulary to *your/dir/*params.json file.
 
 
 ### 2. tf_transformer_model_training.ipyng ###
