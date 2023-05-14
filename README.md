@@ -32,7 +32,7 @@ The notebooks are named after their specific use cases:
 
 1.5. Apply BPE to tokenized dataset.
 
-1.6. Save the parameters and vocabulary to *your/dir/* params.json file.
+1.6. Save the parameters and vocabulary to *your/gdrive/dir/params.json* file.
 
 
 ### 2. tf_transformer_model_training.ipyng ###
