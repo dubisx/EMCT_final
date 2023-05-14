@@ -56,7 +56,7 @@ The notebooks are named after their specific use cases:
 
 3.1.1 Initialize the tokenizer, load the parameters from *your/gdrive/dir/params.json*; 
 
-3.1.2 Choose, initialize and load the model from *your/gdrive/dir/models/REMI_FD_model_xattn*;
+3.1.2 Choose, initialize and load the model from *your/gdrive/dir/models/REMI_FD_model_xattn/*;
 
 3.1.3 Load in the model weights *your/gdrive/dir/weights/REMI_weights_xattn*;
 
