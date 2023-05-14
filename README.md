@@ -16,10 +16,15 @@ The notebooks are named after their specific use cases:
 
 How to use (you can skip 1.x and 2.x steps if you only want to generate MIDI compositions): 
 
+
+# 1. midi_encode_to_token.ipynb #
+
 1.1. Choose or collect an appropriate MIDI dataset
 
 1.2. Run the second notebook to encode the data to specified path.
 
+
+# 2. tf_transformer_model_training.ipyng #
 
 2.1. Load in the tokenized dataset.
 
@@ -34,6 +39,7 @@ How to use (you can skip 1.x and 2.x steps if you only want to generate MIDI com
 2.6. Save the trained model and its weights to specified path.
 
 
+# 3. Generator.ipynb #
 
 3.1. Initialize the tokenizer, choose and initialize the model, and load in the model weights from their directories.
 
