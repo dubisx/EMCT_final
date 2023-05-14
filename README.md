@@ -39,20 +39,28 @@ The notebooks are named after their specific use cases:
 
 2.1. Load in the tokenized dataset.
 
-2.2. Run the cell that handles creating batches of Input and Target sequences.
+2.2. Initialize the tokenizer, load the parameters from *your/gdrive/dir/params.json*.
 
-2.3. Split the data to train/val/test subsets.
+2.3. Run the cell that handles creating batches of Input and Target sequences.
 
-2.4. Initiate the model.
+2.4. Split the data to train/val/test subsets.
 
-2.5. Train the model on the dataset.
+2.5. Initiate the model.
+
+2.6. Train the model on the dataset.
 
 2.6. Save the trained model and its weights to specified path.
 
 
 ### 3. Generator.ipynb ###
 
-3.1. Initialize the tokenizer, choose and initialize the model, and load in the model weights from their google drive directories. (when changing an already initialized model, you must reload the notebook)
+3.1.1 Initialize the tokenizer, load the parameters from *your/gdrive/dir/params.json*; 
+
+3.1.2 Choose, initialize and load the model from *your/gdrive/dir/models/REMI_FD_model_xattn*;
+
+3.1.3 Load in the model weights *your/gdrive/dir/weights/REMI_weights_xattn*;
+
+*(when changing an already initialized model to a different model, you must reload the notebook)*
 
 3.2. Select a MIDI file to use as a prompt. You can view the plotted piano roll and listen to the loaded file inside the notebook.
 
